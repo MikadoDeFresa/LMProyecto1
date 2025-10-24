@@ -1,0 +1,45 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3
+{
+    margin-left: 100px;
+}
+
+.miembro img
+{
+    width: 15%;
+    height: 15%;
+}
+
+.miembro
+{
+    
+    flex-direction: row;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.miembro p
+{
+    width: 30%;
+    text-align: justify;
+}
+
+.miembros
+{
+    background-color: rgb(48, 48, 48, 0.8);
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.miembros h2
+{
+    margin: 10px;
+}
