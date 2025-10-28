@@ -19,21 +19,70 @@ body {
     border-radius: 20px;
 }
 
-.gira h2 {
-    margin: 10px;
-}
-
-section {
+.giraCompleta
+{
     display: flex;
     flex-direction: column;
-    padding: 10px 0;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.galeria
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th
+{
+    text-align: left;
+    color: #6b1717;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #3a3a3a;
+}
+
+.fecha
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.ciudad
+{
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+tr input
+{
+    margin-left: 50%;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #6b1717;
+    border-radius: 12px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 950px;
-    max-height: 950px;
+    max-width: 900px;
+    max-height: 900px;
     margin: 0 auto;
     padding: 0 5px;
 }
