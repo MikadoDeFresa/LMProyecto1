@@ -17,6 +17,16 @@ body {
     max-width: 1200px;
     padding: 20px;
     border-radius: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .giraCompleta
@@ -65,17 +75,6 @@ tbody tr:nth-child(odd) {
     font-style: italic;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
-}
-
-tr input
-{
-    margin-left: 50%;
-    width: 150px;
-    height: 40px;
-    font-size: larger;
-    font-weight: bold;
-    background-color: #6b1717;
-    border-radius: 12px;
 }
 
 .container {
