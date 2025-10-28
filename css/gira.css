@@ -45,38 +45,6 @@ body {
     margin-bottom: 50px;
 }
 
-table {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    border-collapse: collapse;
-}
-
-th
-{
-    text-align: left;
-    color: #6b1717;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #3a3a3a;
-}
-
-.fecha
-{
-    font-style: italic;
-    font-weight: bold;
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
-}
-
-.ciudad
-{
-    font-style: italic;
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
-}
-
 .container {
     display: flex;
     flex-direction: column;
