@@ -1,48 +1,64 @@
-h3
-{
-    margin-left: 100px;
-}
-
-.disk img
-{
-    width: 15%;
-    height: 15%;
-    border-radius: 25%;
-    border: 3px solid black;
-    margin: 10px;
-}
-
-.disk
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-    margin-bottom: 50px;
-}
-
-.disk p
-{
-    width: 30%;
-    text-align: justify;
-}
-
-body
-{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.discografia
-{
-    background-color: rgb(48, 48, 48, 0.8);
+h3 {
+    margin-left: 100px;
+}
+
+.discografia {
+    background-color: #3a3a3a;
     border-radius: 20px;
     width: 100%;
     max-width: 1200px;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.discografia h2
-{
+.discos1, .discos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.disk {
+    position: relative;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
     margin: 10px;
+}
+
+.disk img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.disk p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 91%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.disk:hover p {
+    opacity: 1;
+}
+
+.disk:hover img {
+    transform: scale(1.05);
 }
