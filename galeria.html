@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Måneskin</title>
+    <meta name="description" content="Página del grupo musical Maneskin" />
+    <meta name="Keywords" content="Måneskin,grupo,musica,italiano,pop,rock,punk" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/galeria.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" id="logo" alt="Logo de la banda"></a>
+
+        <nav>
+            <ul class="menuNivel1">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="gira.html">Gira</a>
+                    <ul class="menuNivel2">
+                        <li><a href="giracompleta.html">Gira completa</a></li>
+                        <li class="activo"><a href="galeria.html">Galería</a></li>
+                        <li><a href="entradas.html">Compra de entradas</a></li>
+                    </ul>
+                </li>
+                <li><a href="miembros.html">Miembros</a></li>
+                <li><a href="discografia.html">Discografía</a></li>
+                <li><a href="registro.html">Resgistro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="galeria" id="galeria">
+
+            <h2>Galería</h2>
+
+            <div class="container">
+                <div class="carousel">
+                    <input type="radio" name="slides" checked="checked" id="slide-1">
+                    <input type="radio" name="slides" id="slide-2">
+                    <input type="radio" name="slides" id="slide-3">
+                    <input type="radio" name="slides" id="slide-4">
+                    <input type="radio" name="slides" id="slide-5">
+                    <input type="radio" name="slides" id="slide-6">
+
+                    <ul class="carousel__slides">
+                        <li class="carousel__slide">
+                            <figure>
+                                <img src="images/1.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <img src="images/2.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <img src="images/concert1.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <video controls autoplay muted loop>
+                                    <source src="images/maneskin-video.mp4" type="video/mp4">
+                                </video>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <img src="images/concert3.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <img src="images/concert4.JPG" alt="">
+                            </figure>
+                        </li>
+                    </ul>
+
+                    <ul class="carousel__thumbnails">
+                        <li>
+                            <label for="slide-1"><img src="images/1.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-2"><img src="images/2.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-3"><img src="images/concert1.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-4"><img src="images/concert2.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-5"><img src="images/concert3.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-6"><img src="images/concert4.JPG" alt=""></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+</body>
