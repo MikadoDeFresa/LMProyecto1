@@ -75,12 +75,12 @@ nav
     padding: 10px 15px;
 }
 
-.menuNivel1 .activo
+.menuNivel1 .activo > a
 {
     background-color: #0e0e0e;
 }
 
-.menuNivel1 .activo a
+.menuNivel1 .activo > a
 {
     color: white;
 }
